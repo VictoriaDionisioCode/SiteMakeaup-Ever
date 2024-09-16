@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.btn-primary {
+    background-color: #ff69b4; /* rosa */
+    border-color: #ff69b4;
+}
+
+.banner {
+    background-color: #ff69b4;
+}
+
+.btn-primary:hover {
+    background-color: #ff1493; /* rosa mais escuro no hover */
+    border-color: #ff1493;
+}
+.navbar {
+    background-color: #ffffff; /* cor rosa para a navbar */
+}
+
+.navbar .navbar-brand, 
+.navbar .nav-link {
+    color: #ff1493; /* Mantém o texto e links brancos */
+}
+
+.navbar .nav-link:hover {
+    color: #6d063d; /* Cor mais escura no hover dos links */
+}
+
+.card-img{
+    height: 400px;
+}
+
+.card-img-top {
+    width: 100%;   /* Garante que a imagem ocupe 100% da largura do card */
+    height: 100%;  /* Garante que a imagem ocupe 100% da altura do card */
+    object-fit: cover;  /* Faz com que a imagem se ajuste sem distorção */
+}
